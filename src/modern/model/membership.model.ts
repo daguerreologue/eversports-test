@@ -1,5 +1,5 @@
-import { Membership } from "../../schemata/membership"
-import { MembershipPeriod } from "../../schemata/membership-period"
+import { Membership } from "../schemata/membership"
+import { MembershipPeriod } from "../schemata/membership-period"
 import * as uuid from 'uuid'
 import { shiftDate } from "../generic/dates"
 import { fold } from "../generic/immutable"

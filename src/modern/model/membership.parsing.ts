@@ -1,5 +1,5 @@
 import * as uuid from "uuid";
-import { MembershipRequest, Membership } from "../../schemata/membership";
+import { MembershipRequest, Membership } from "../schemata/membership";
 import { shiftDate } from "../generic/dates";
 import { ParsingFn } from "../generic/parsing";
 import { mockUser } from "./membership.model";

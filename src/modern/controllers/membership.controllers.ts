@@ -1,5 +1,5 @@
 import express from "express"
-import { MembershipRequest } from "../../schemata/membership"
+import { MembershipRequest } from "../schemata/membership"
 import * as membershipModel from "../model/membership.model"
 import { parseMembership } from "../model/membership.parsing"
 
